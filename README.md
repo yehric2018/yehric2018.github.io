@@ -1,2 +1,2 @@
 # yehric2018.github.io
-My personal website
+Hoping to finally create a personal website! :) Coming soon
