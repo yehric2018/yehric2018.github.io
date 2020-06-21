@@ -12,7 +12,7 @@ a.navbar-brand {
     opacity: 1.0;
     text-align: center;
     transition: 0.3s;
-    width: 25%;
+    width: 20%;
 }
 
 a.navbar-brand:hover {
@@ -24,6 +24,7 @@ body {
     background-color: #cccccc;
     background-image: url("background.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
     color: #ffffff !important;
     font-family: "Trebuchet MS" !important;
     opacity: 0;
@@ -74,9 +75,19 @@ img {
     font-size: 120px;
 }
 
-#myNav {
-    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,0)) !important;
+.nav-links {
+    background: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0)) !important;
+    height: 100px;
     padding-top: 10px;
     padding-bottom: 20px;
+    width: 100%;
+}
+
+#about-me {
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+#myNav {
     width: 100%;
 }
