@@ -32,8 +32,13 @@ body {
     -webkit-transition: opacity 2s;
 }
 
-img {
+img.profile {
     border-radius: 50%;
+}
+
+img.blogpost {
+    height: 200,
+    width: 200
 }
 
 .fa {
