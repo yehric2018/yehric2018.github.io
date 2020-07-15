@@ -32,13 +32,17 @@ body {
     -webkit-transition: opacity 2s;
 }
 
+body.post-body {
+    background-image: none;
+    color: black !important;
+};
+
 img.profile {
-    border-radius: 50%;
+    border-radius: 50% !important;
 }
 
-img.blogpost {
-    height: 200,
-    width: 200
+img {
+    border-radius: 50%;
 }
 
 .fa {
@@ -88,6 +92,14 @@ img.blogpost {
     width: 100%;
 }
 
+.back-bar {
+    background-color: rgb(100, 180, 255);
+    height: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+
 .content {
     margin-top: 100px;
     margin-bottom: 20px;
@@ -95,4 +107,13 @@ img.blogpost {
 
 #myNav {
     width: 100%;
+}
+
+#post-title {
+    font-size: 30px;
+}
+
+#post-meta {
+    font-size: 20px;
+    margin-bottom: 10px;
 }

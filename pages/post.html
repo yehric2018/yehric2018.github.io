@@ -12,7 +12,19 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <script src="../js/scripts.js"></script>
+  <!-- script>
+      Github pages only support static sites :(
+
+      document.addEventListener('DOMContentLoaded', function() {
+          const req = new XMLHttpRequest();
+          req.open("GET", '/blog/fake.txt', true);
+          req.send();
+          req.onload = function() {
+            document.getElementsByClassName('blog-content')[0].textContent =
+                req.responseText;
+          }
+      })
+  </script -->
 </head>
 
 <body onload="document.body.style.opacity='1'">
