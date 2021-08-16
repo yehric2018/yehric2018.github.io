@@ -11,6 +11,20 @@ h3 {
     margin-top: 20px;
 }
 
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+code {
+    color: #00ff00;
+    background-color: #000000;
+    padding: 5px 20px;
+    border-radius: 3px;
+}
+
 .navbar-brand {
     background-color: #cdefff;
 }
@@ -23,6 +37,6 @@ h3 {
     margin-top: 20px;
 }
 
-.blog-post {
-    padding: 10px;
+.img-container {
+    width: 800px;
 }
